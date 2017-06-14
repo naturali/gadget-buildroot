@@ -1,0 +1,8 @@
+config BR2_PACKAGE_PYTHON_GATTLIB
+	bool "python-gattlib"
+	select BR2_PACKAGE_BOOST_PYTHON
+	select BR2_PACKAGE_BOOST_THREAD
+	help
+	  Library to access Bluetooth LE devices.
+
+	  https://bitbucket.org/OscarAcena/pygattlib

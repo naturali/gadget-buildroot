@@ -1,0 +1,7 @@
+config BR2_PACKAGE_PYTHON_PYBLUEZ
+	bool "python-pybluez"
+	select BR2_PACKAGE_BLUEZ5_UTILS
+	help
+	  Bluetooth Python extension module.
+
+	  http://karulis.github.io/pybluez/
